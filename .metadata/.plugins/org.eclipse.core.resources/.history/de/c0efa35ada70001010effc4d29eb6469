@@ -1,0 +1,15 @@
+package com.example.helloworld;
+
+public class PrimitiveDataTypesDemo {
+
+	
+	// When we run the code, it will first run into main method
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write in the console
+		System.out.println("Hello World");
+
+	}
+
+}

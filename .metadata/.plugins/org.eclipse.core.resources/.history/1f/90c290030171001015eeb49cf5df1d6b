@@ -1,0 +1,43 @@
+package com.example.helloworld;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+
+		System.out.println("While demo");
+		
+		int i = 0;
+		int count = 0;
+		
+		// SELAGI / AS LONG AS count < 5
+		while (count < 5) {
+			// DO the following
+			if (i % 2 == 0) {
+				System.out.println(i);
+				count++;
+			}
+			i++;
+		}
+		
+		System.out.println("Do while demo");
+		int j = 8;
+		// While will never be executed because it does not fulfill 
+		// the initial criteria
+		while ( j <=5) {
+			System.out.println(j);
+			j++;
+		}
+		// do while will always ensure that it is executed once 
+		// although the condition is wrong
+		
+		do {
+			
+			System.out.println(j);
+			j++;
+		}
+		
+		while ( j<=5);
+		
+	}
+
+}

@@ -1,0 +1,44 @@
+package com.example.helloworld;
+
+public class ForLoopDemo {
+
+	public static void main(String[] args) {
+		// From 0 (dari 0)
+		// i < 10 = Until 10
+		// i++ <- every iteration add by 1 i++
+		System.out.println("Increment loop");
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Number is "+i);
+		}
+		
+		System.out.println("Decrement loop");
+		
+		// From 10
+		// Until 0
+		// Every iteration decrease by 1
+		for ( int i = 10; i > 0 ; i--) {
+			System.out.println("Number is "+i);
+		}
+		
+		// BUGGGGGGGGG - Infinite loop
+		// From 10
+		// until i > 0
+		// Every iteration add by 1
+		// Number is 10
+		// Number is 11
+		//		Number is 12
+		//		
+		//		for ( int i = 10; i > 0 ; i++) {
+		//			System.out.println("Number is "+i);
+		//		}
+		
+		
+		// i+=2
+		for (int i = 1; i < 10; i+=2) {
+			System.out.println("Number is "+i);
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.example.helloworld;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+
+		System.out.println("While demo");
+		int i = 0;
+		int count = 0;
+		
+		// SELAGI / AS LONG AS count < 5
+		while (count < 5) {
+			// DO the following
+			if (i % 2 == 0) {
+				System.out.println(i);
+				count++;
+			}
+			i++;
+		}
+		
+		System.out.println("Do while demo");
+		
+	}
+
+}

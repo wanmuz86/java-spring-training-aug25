@@ -1,0 +1,36 @@
+package com.example.helloworld;
+
+public class IfElseDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Positive - Negative Demo");
+		int num = 13;
+		
+		if (num > 0) {
+			System.out.println("Number is positive");
+		}
+		else if (num < 0) {
+			System.out.println("Number is negative");
+		}
+		else {
+			System.out.println("Number is zero");
+		}
+		
+		System.out.println("Fantastic Four admittance checker");
+		
+		int age = 9;
+		
+		if (age < 12) {
+			System.out.println("You cannot watch the movie");
+		}
+		else if (age < 18) {
+			System.out.println("You can watch the movie with parent");
+		} else {
+			System.out.println("You can watch the movie");
+		}
+		
+		System.out.println("Fantastic Four advanced admittance checker");
+
+	}
+
+}

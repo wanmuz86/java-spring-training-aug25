@@ -1,0 +1,19 @@
+package com.example.oop;
+
+// A class is the representation of the real world object [ A person, A human]
+// in Object Oriented Programming
+// Eg - A hotel, A room, An Attraction, A Facility, A Landmark
+
+public class Person {
+	
+	// properties - what describe a class
+	
+	private String name;
+	private int age;
+	
+
+}
+
+//Encapsulation - In OOP , 
+// we keep our property private and cannot be changed directly
+// We provide setter and getter if these infos need to be retrieved

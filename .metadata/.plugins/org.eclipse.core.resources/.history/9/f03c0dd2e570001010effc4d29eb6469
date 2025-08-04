@@ -1,0 +1,21 @@
+package com.example.helloworld;
+
+public class IfElseDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Positive - Negative Demo");
+		int num = -10;
+		
+		if (num > 0) {
+			System.out.println("Number is positive");
+		}
+		else if (num < 0) {
+			System.out.println("Number is negative");
+		}
+		else {
+			System.out.println("Number is zero");
+		}
+
+	}
+
+}

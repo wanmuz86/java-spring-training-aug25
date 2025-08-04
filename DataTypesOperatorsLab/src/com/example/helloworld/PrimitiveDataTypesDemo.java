@@ -1,0 +1,60 @@
+package com.example.helloworld;
+
+public class PrimitiveDataTypesDemo {
+
+	
+	// When we run the code, it will first run into main method
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write in the console
+		System.out.println("Hello World");
+		
+	
+		
+		// 2^8 - from -127 to 128
+		byte smallNumber = 10;
+		// 2^16 - 
+		short shortNumber = 30000;
+		
+		// 2^32
+		// integer (cannot have .)
+		int age = 35;
+		// 2^64
+		long longNumber = 100000000000L;
+		
+		System.out.println("Integer value "+age);
+		
+		System.out.println("Byte value "+smallNumber);
+		
+		System.out.println("Short value "+shortNumber);
+		
+		System.out.println("Long value "+longNumber);
+		
+		// Use case example when working with unix timestamp
+		// data retrieved might be in long not int
+		
+		// 2^32
+		// For float need to specify f on the number
+		float pi = 3.142f;
+		// 2^64
+		double distance = 1234.56;
+		
+		System.out.println("Float value "+pi);
+		System.out.println("Double value "+distance);
+		
+		// single quote
+		// a character, a letter
+		char grade = 'A';
+		
+		// boolean - can only take true or false value
+		boolean isJavaFun = true;
+		
+		System.out.println("Char value "+grade);
+		System.out.println("Boolean value "+isJavaFun);
+		
+		
+
+	}
+
+}

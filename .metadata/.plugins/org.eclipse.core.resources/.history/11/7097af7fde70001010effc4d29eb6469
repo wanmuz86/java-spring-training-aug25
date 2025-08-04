@@ -1,0 +1,17 @@
+package com.example.helloworld;
+
+public class StringOperationsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// String - word, character, sentence ...
+		String greeting = "Hello";
+		String name = "John";
+		
+		System.out.println(greeting);
+		System.out.println(name);
+
+	}
+
+}

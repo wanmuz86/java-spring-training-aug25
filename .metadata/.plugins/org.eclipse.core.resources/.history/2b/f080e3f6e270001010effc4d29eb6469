@@ -1,0 +1,14 @@
+package com.example.helloworld;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		
+		// Array of int 
+		// Array - To store more than one items of same type
+		
+		int[] numbers = {1,2,3,4,5};
+
+	}
+
+}

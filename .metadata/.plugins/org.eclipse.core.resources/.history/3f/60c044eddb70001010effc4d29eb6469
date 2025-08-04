@@ -1,0 +1,34 @@
+package com.example.helloworld;
+
+public class PrimitiveDataTypesDemo {
+
+	
+	// When we run the code, it will first run into main method
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Write in the console
+		System.out.println("Hello World");
+		
+		// integer (cannot have .)
+		int age = 35;
+		
+		byte smallNumber = 10;
+		
+		short shortNumber = 30000;
+		
+		long longNumber = 100000000000L;
+		
+		System.out.println("Integer value "+age);
+		
+		System.out.println("Byte value "+smallNumber);
+		
+		System.out.println("Short value "+shortNumber);
+		
+		System.out.println("Long value "+longNumber);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.example.metadataconf.service.Service.java&apos; to &apos;MyService.java&apos;&#x0A;- Original project: &apos;metadataconf&apos;&#x0A;- Original element: &apos;com.example.metadataconf.service.Service.java&apos;&#x0A;- Renamed element: &apos;com.example.metadataconf.service.MyService.java&apos;" description="Rename compilation unit &apos;Service.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.metadataconf.service{Service.java" name="MyService.java" references="false" stamp="1725450941766" version="1.0"/>
+</session>

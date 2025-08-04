@@ -1,0 +1,35 @@
+package com.example.helloworld;
+
+public class StringOperationsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// String - word, character, sentence ...
+		String greeting = "Hello";
+		String name = "John";
+		
+		System.out.println(greeting);
+		System.out.println(name);
+		
+		// Concatenation - combining multiple strings
+		
+		String message = greeting + ", " + name + " !";
+		System.out.println(message);
+		
+		//  charAt (get characters at a specific index)
+		// Start from 0 He [character at index 1 is 'e']
+		System.out.println("Character at index 1 is "+message.charAt(1));
+		
+		
+		// substring 
+		// From 7 (calculate properly take into consideration , and ''
+		// Until 11 but not including 11 (n - 10 + 1)
+		String subMessage = message.substring(7,11); // Extract John
+		System.out.println(subMessage);
+		
+		
+
+	}
+
+}

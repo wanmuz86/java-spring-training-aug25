@@ -1,0 +1,19 @@
+package com.example.helloworld;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		
+		// Array of int 
+		// Array - To store more than one items of same type
+		
+		int[] numbers = {1,2,3,4,5};
+		
+		// Retrieve number 3 from the array
+		// get it from index, index starts from 0
+		// The index is 2
+		System.out.println("The 3rd element is "+numbers[2]);
+
+	}
+
+}

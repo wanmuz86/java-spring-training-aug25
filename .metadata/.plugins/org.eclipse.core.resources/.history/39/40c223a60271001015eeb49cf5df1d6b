@@ -1,0 +1,8 @@
+package com.example.oop;
+
+// A class is the representation of the real world object [ A person, A human]
+// in Object Oriented Programming
+// Eg - A hotel, A room, An Attraction, A Facility, A Landmark
+public class Person {
+
+}

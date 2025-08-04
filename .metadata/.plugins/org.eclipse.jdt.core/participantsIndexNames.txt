@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+/Users/wanmuz/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1522634488.index
+/spring-boot-jsp-lab-2024/src/main/java
+/Users/wanmuz/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2246695432.index
+/spring-boot-jsp-lab/src/main/java
+/Users/wanmuz/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/333116097.index
+/springsecurity/src/main/java

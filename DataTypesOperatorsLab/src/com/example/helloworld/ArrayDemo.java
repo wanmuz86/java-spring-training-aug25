@@ -1,0 +1,45 @@
+package com.example.helloworld;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		
+		// Array of int 
+		// Array - To store more than one items of same type
+		
+		int[] numbers = {1,2,3,4,5};
+		
+		// Retrieve number 3 from the array
+		// get it from index, index starts from 0
+		// The index is 2
+		System.out.println("The 3rd element is "+numbers[2]);
+		
+		// How many items are there in the array?
+		
+		System.out.println("How many items are there ? "+numbers.length);
+		
+		// Iterating through the array
+		// for (singular) : (plurals)
+		
+		for (int number: numbers) {
+			
+			// sysout - singular
+			System.out.println(number);
+		}
+		
+		// Iterating through the array
+		// using index
+		
+		// From 0, to 5, every iteration add by 1
+		
+		// i++ (every iteration add 1)
+		// i-- (every iteration remove 1)
+		// i+=2 (every iteration by 2)
+		// i-=2 (every iteration remove by 2)
+		for (int i = 0; i < numbers.length; i++) {
+			System.out.println("Item at index "+i+" is "+ numbers[i]);
+		}
+
+	}
+
+}

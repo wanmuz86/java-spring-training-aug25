@@ -1,0 +1,49 @@
+package com.example.kafka_streams_demo;
+
+import java.util.Properties;
+
+import org.apache.kafka.streams.KafkaStreams;
+import org.apache.kafka.streams.StreamsBuilder;
+import org.apache.kafka.streams.StreamsConfig;
+import org.apache.kafka.streams.kstream.KStream;
+import org.apache.kafka.streams.kstream.Produced;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+//Configuration file
+@Configuration
+public class KafkaStreamsConfig {
+	
+	@Bean 
+	public KafkaStreams kafkaStreams() {
+		// Configuration to setup the streams
+		Properties props = new Properties();
+		props.put(StreamsConfig.APPLICATION_ID_CONFIG,"my-streams-app");
+		props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG,"localhost:9092");
+		// This is the format of data received in Kafka
+		props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, org.apache.kafka.common.serialization.Serdes.String().getClass().getName());
+		
+		// To create the Stream
+		
+		StreamsBuilder builder = new StreamsBuilder();
+		// Receive the "message" from producer as a Stream
+		// Stream is a continuos data // keep listeneing to it
+		KStream<String, String> sourceStream = builder.stream(""
+				+ "");
+		
+		// Transform the stream, for each stream I will uppercase / change the case
+		KStream<String, String> processedStream = sourceStream.mapValues(value->value.toUpperCase());
+		
+		// Write the stream to output
+		
+		processedStream.to("", Produced.with(org.apache.kafka.common.serialization.Serdes.String(), org.apache.kafka.common.serialization.Serdes.String()));
+		
+		
+		// Start listening/observing to the message as a stream
+		KafkaStreams streams = new KafkaStreams(builder.build(), new StreamsConfig(props));
+		streams.start();
+		
+		return streams;
+	}
+
+}

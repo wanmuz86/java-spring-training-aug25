@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="kafka-clients"/>
+		<list key="findhistory">
+			<item value="kafka-clients"/>
+			<item value="kafka"/>
+			<item value=" &lt;!-- Tomcat Embed Jasper for JSP Support --&gt;&#x0A;    &lt;dependency&gt;&#x0A;        &lt;groupId&gt;org.apache.tomcat.embed&lt;/groupId&gt;&#x0A;        &lt;artifactId&gt;tomcat-embed-jasper&lt;/artifactId&gt;&#x0A;    &lt;/dependency&gt;"/>
+			<item value="size"/>
+			<item value="jpa"/>
+			<item value="jp"/>
+			<item value="web"/>
+			<item value="your-topic"/>
+			<item value="security"/>
+			<item value="jjwr"/>
+			<item value="dofilter"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="538"/>
+		<item key="DIALOG_Y_ORIGIN" value="118"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="400"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="java.lang.Class">
+		<list key="findhistory">
+			<item value="lombok"/>
+			<item value="errorMs"/>
+		</list>
+	</section>
+</section>
