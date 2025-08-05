@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/wanmuz/Downloads/demo/src/main/java/com/example/demo/DemoApplication.java"/>
 			<item value="/Users/wanmuz/eclipse-workspace/dependecyinjection"/>
 			<item value="/Users/wanmuz/eclipse-workspace/springintro/pom.xml"/>
 			<item value="/Users/wanmuz/eclipse-workspace/springintro2"/>
@@ -74,6 +75,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/wanmuz/Downloads/iocdemo"/>
 			<item value="/Users/wanmuz/Downloads/app"/>
 			<item value="/Users/wanmuz/Downloads/kafkatwitter"/>
 			<item value="/Users/wanmuz/Downloads/JPADemo"/>
@@ -88,7 +90,6 @@
 			<item value="/Users/wanmuz/Downloads/kafka-streams-demo"/>
 			<item value="/Users/wanmuz/Downloads/kafkademoapi"/>
 			<item value="/Users/wanmuz/Downloads/demo 2"/>
-			<item value="/Users/wanmuz/Downloads/twitterkafka"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

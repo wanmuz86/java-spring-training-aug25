@@ -49,9 +49,17 @@ public class Person {
 		this.age = age;
 	}
 	
+	// instance method
 	public void introduce() {
 		System.out.println("Hi, I'm "+this.name+ " and I'm "+this.age+" years old");
 	}
+	
+	// static vs non static method
+	// class method
+	public static void printStaticMessage() {
+		System.out.println("This is a static method in the Person class");
+	}
+	
 	
 
 

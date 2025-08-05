@@ -21,10 +21,13 @@ public class EmployeeDemo {
 		System.out.println("Person 3 is "+newEmployee.getName()+" and she is "
 		+newEmployee.getAge()+" years old");
 		
-		
 		person1.introduce();
 		person2.introduce();
 		newEmployee.introduce();
+		
+		// Example of calling a static method/ class method
+		// eg: Logging, Utilities, SHared function 
+		Person.printStaticMessage();
 
 	}
 
