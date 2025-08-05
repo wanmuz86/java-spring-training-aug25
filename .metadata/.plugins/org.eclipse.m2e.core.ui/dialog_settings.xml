@@ -75,6 +75,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/wanmuz/eclipse-workspace/iocdemo"/>
 			<item value="/Users/wanmuz/Downloads/iocdemo"/>
 			<item value="/Users/wanmuz/Downloads/app"/>
 			<item value="/Users/wanmuz/Downloads/kafkatwitter"/>
@@ -89,7 +90,6 @@
 			<item value="/Users/wanmuz/Downloads/springsecurity"/>
 			<item value="/Users/wanmuz/Downloads/kafka-streams-demo"/>
 			<item value="/Users/wanmuz/Downloads/kafkademoapi"/>
-			<item value="/Users/wanmuz/Downloads/demo 2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

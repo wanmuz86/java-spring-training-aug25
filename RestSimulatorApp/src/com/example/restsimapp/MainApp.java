@@ -85,6 +85,8 @@ public class MainApp {
 	double price = scanner.nextDouble(); // Wait for the response of type double
 	
 	// create based on the constructor (id, name, price)
+	// nexId++ , return 1 then increment the id to 2
+	
 	Product product = new Product(nextId++,name,price);
 	productList.add(product);
 	
