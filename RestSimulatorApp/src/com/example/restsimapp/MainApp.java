@@ -64,13 +64,32 @@ public class MainApp {
 
 
 	private static void readProducts() {
-		// TODO Auto-generated method stub
+		if (productList.isEmpty()) {
+			System.out.println("No product available at the moment");
+		}
+		else {
+			System.out.println("Product List");
+			for (Product p : productList) {
+				p.display();
+			}
+		}
 	
 	}
 
 
 	private static void createProduct() {
-		// TODO Auto-generated method stub
+	System.out.println("Enter product name");
+	String name = scanner.nextLine(); // Wait for the response of type String
+	
+	System.out.println("Enter product price");
+	double price = scanner.nextDouble(); // Wait for the response of type double
+	
+	// create based on the constructor (id, name, price)
+	Product product = new Product(nextId++,name,price);
+	productList.add(product);
+	
+	System.out.println("Product successfully added");
+	
 		
 	}
 

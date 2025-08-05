@@ -35,9 +35,9 @@ public class MapExample {
 				);
 		
 		System.out.println("Simple hashMap operation");
-		System.out.println(hashMap.get("apple"));
-		System.out.println(hashMap.size());
-		System.out.println(hashMap.containsKey("orange"));
+		System.out.println(hashMap.get("apple"));  // 1
+		System.out.println(hashMap.size()); // 4 ()
+		System.out.println(hashMap.containsKey("orange")); // false
 		
 		System.out.println("Retrieveing hash map elements through for loop");
 		
