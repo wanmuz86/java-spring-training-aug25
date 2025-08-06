@@ -4,8 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 // Initialize a Spring  Application
-// By default it is Java Based Application using Annotation // XML Based configuration
-// Get the configuration from application.properties
+// By default it is Java Based Application using Annotation // XML Based configuration  @EnableAutoConfiguration
+// @ComponentScanning-> Scan for all the components that has 
+// Get the configuration from application.properties @Configuration
 @SpringBootApplication
 public class DemoApplication {
 
