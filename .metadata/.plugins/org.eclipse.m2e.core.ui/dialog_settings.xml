@@ -75,6 +75,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/wanmuz/Downloads/jwt-demo"/>
+			<item value="/Users/wanmuz/Downloads/security-demo"/>
+			<item value="/Users/wanmuz/eclipse-workspace/ecommerce"/>
+			<item value="/Users/wanmuz/eclipse-workspace/todoapi"/>
 			<item value="/Users/wanmuz/Downloads/ecommerce"/>
 			<item value="/Users/wanmuz/eclipse-workspace/iocdemo"/>
 			<item value="/Users/wanmuz/Downloads/iocdemo"/>
@@ -86,10 +90,6 @@
 			<item value="/Users/wanmuz/Downloads/spring-boot-jsp-lab"/>
 			<item value="/Users/wanmuz/Downloads/spring-boot-jsp-lab-calvin"/>
 			<item value="/Users/wanmuz/Downloads/spring-boot-jsp-lab-2024"/>
-			<item value="/Users/wanmuz/Downloads/demo"/>
-			<item value="/Users/wanmuz/Downloads/jwtverification"/>
-			<item value="/Users/wanmuz/Downloads/springsecurity"/>
-			<item value="/Users/wanmuz/Downloads/kafka-streams-demo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

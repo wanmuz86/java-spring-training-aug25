@@ -9,6 +9,8 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="kafka-clients"/>
 		<list key="findhistory">
+			<item value="jakarta"/>
+			<item value="jaka"/>
 			<item value="kafka-clients"/>
 			<item value="kafka"/>
 			<item value=" &lt;!-- Tomcat Embed Jasper for JSP Support --&gt;&#x0A;    &lt;dependency&gt;&#x0A;        &lt;groupId&gt;org.apache.tomcat.embed&lt;/groupId&gt;&#x0A;        &lt;artifactId&gt;tomcat-embed-jasper&lt;/artifactId&gt;&#x0A;    &lt;/dependency&gt;"/>

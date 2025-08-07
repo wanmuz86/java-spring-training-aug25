@@ -26,7 +26,9 @@ public class Category {
 	// The relation name is "category" - from child's perspective
 	// Cascade - 
 	// Fetch = reading exercise - Lazy, Eager
-	@JsonManagedReference // TBC
+	 @JsonManagedReference 
+	 // Whenever I load my category in  API, 
+	 //include the products as well
 	private List<Product> products;
 
 	public Long getId() {
@@ -44,6 +46,15 @@ public class Category {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	public List<Product> getProducts() {
+		return products;
+	}
+
+	public void setProducts(List<Product> products) {
+		this.products = products;
+	}
+	
 	
 	
 
