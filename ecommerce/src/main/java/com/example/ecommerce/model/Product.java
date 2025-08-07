@@ -101,6 +101,15 @@ public class Product {
 	public void setCategory(Category category) {
 		this.category = category;
 	}
+
+	public Set<Tag> getTags() {
+		return tags;
+	}
+
+	public void setTags(Set<Tag> tags) {
+		this.tags = tags;
+	}
+	
 	
 	
 	

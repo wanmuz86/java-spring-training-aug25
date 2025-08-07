@@ -21,16 +21,17 @@ public class ProductController {
 	private ProductService productService;
 	
 	// Test Flow
-	// 1) Create a Product - POST localhost:8080/api/products?categoryId=1
+	// 1) Create a Product - POST localhost:8080/api/products?categoryId=1&tagIds=1,2
 	// 2) Get all products or get product by id = localhost:8080/api/products
 	// 3) Get all categories, or get category by id = localhost:8080/api/categories
 	
 	@PostMapping
-	public Product addProduct(@RequestBody Product product , @RequestParam Long categoryId) {
+	public Product addProduct(@RequestBody Product product , @RequestParam Long categoryId,
+			@RequestParam List<Long> tagIds) {
 		// Now to create a new product I have to specify the category ID - DTO
 		// Temporarily use RequestParam
 		// BEst Practice use proper DTO 
-		return productService.createProduct(product, categoryId);
+		return productService.createProduct(product, categoryId, tagIds);
 	}
 	
 	@GetMapping
