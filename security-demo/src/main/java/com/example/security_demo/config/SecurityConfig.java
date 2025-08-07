@@ -24,7 +24,7 @@ public class SecurityConfig {
 		http.
 		authorizeHttpRequests(auth->
 		auth.requestMatchers("/api/admin/**").hasRole("ADMIN")
-		.requestMatchers("/api/todos").hasAnyRole("USER")
+		.requestMatchers("/api/todos").hasRole("USER")
 		.requestMatchers("/api/**").authenticated() // For all url that started with /api/ -> authenticated
 		.anyRequest().permitAll() // The other request -> allow it
 		)
@@ -55,6 +55,7 @@ public class SecurityConfig {
 				.roles("ADMIN")
 				.build();
 		
+		// Save inside InMemoryUserDetailsManager
 				return new InMemoryUserDetailsManager(user,admin);
 		
 	}

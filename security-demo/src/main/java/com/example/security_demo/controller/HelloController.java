@@ -12,5 +12,10 @@ public class HelloController {
 	public String hello() {
 		return "Hello, authenticated user!";
 	}
+	
+	@GetMapping("/todos")
+	public String todos() {
+		return "Hello user, this is your to do list.... ";
+	}
 
 }
